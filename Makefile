@@ -1,7 +1,7 @@
 .PHONY: unittest doctest
 
 unittest:
-	python3 -m unittest discover -v
+	python -m unittest discover -v
 
 doctest:
-	python3 -m doctest -v FizzBuzz/*.py
+	python -m doctest -v FizzBuzz/*.py

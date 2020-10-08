@@ -4,4 +4,4 @@ unittest:
 	python3 -m unittest discover -v
 
 doctest:
-	python3 -m doctest -v fizzbuzz/*.py
+	python3 -m doctest -v FizzBuzz/*.py

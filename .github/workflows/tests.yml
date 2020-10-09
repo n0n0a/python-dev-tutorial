@@ -11,9 +11,13 @@ jobs:
       with:
         python-version: '3.8'
         architecture: 'x64'
-    - name: unittest
+    - name: install
       run: |
-        make unittest
+        pip install --upgrade pip
+        make install
+    - name: pytest
+      run: |
+        make pytest
     - name: doctest
       run: |
         make doctest

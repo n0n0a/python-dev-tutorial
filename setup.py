@@ -2,13 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='fizzbuzz',
-    version="0.0.2",
+    version="0.0.3",
     description='Fizz Buzz program.',
     author='n0n0a',
     url='https://github.com/n0n0a/python-dev-tutorial',
     author_email='n0n0a6262@gmail.com',
     license='MIT',
-    install_requires=[],
+    install_requires=["pytest"],
     packages=find_packages(exclude=["tests"]),
     entry_points={
         'console_scripts': 'fizzbuzz-cli = FizzBuzz.fizzbuzz:main'

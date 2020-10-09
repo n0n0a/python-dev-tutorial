@@ -1,7 +1,7 @@
-.PHONY: unittest doctest install uninstall clean
+.PHONY: pytest doctest install uninstall clean
 
-unittest:
-	python -m unittest discover -v
+pytest:
+	pytest --doctest-modules
 
 doctest:
 	python -m doctest -v FizzBuzz/*.py

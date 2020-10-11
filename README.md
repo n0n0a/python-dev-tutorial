@@ -1,3 +1,5 @@
+This repository is practice for [this](https://github.com/sotetsuk/python-dev-tutorial)
+
 # fizzbuzz
 
 ![tests](https://github.com/n0n0a/python-dev-tutorial/workflows/tests/badge.svg)
